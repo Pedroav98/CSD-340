@@ -1,0 +1,74 @@
+
+/*
+    Author: Pedro Avila
+    Assignment: 3.3 - Build a Web Page Exercise, Part 3
+*/
+
+h1 {
+    text-align: center;
+}
+
+.list-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.left-div,
+.right-div {
+    width: 45%;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+/* First ordered list */
+.left-div h3,
+.left-div ol {
+    border: 1px solid red;
+    border-radius: 15px;
+}
+
+.left-div ol {
+    padding: 10px;
+    list-style-position: inside;
+    font-weight: 300;
+}
+
+/* Second ordered list */
+.right-div h3,
+.right-div ol {
+    border: 1px dashed red;
+    border-radius: 15px;
+}
+
+.right-div ol {
+    padding: 10px;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    font-weight: 300;
+}
+
+/* List titles */
+.left-div h3,
+.right-div h3 {
+    padding: 10px;
+}
+
+/* Return to landing page */
+.bottom-div {
+    width: 100%;
+    margin-top: 60%;
+    float: right;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
